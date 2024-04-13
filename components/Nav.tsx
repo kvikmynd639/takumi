@@ -1,7 +1,5 @@
-// components/Navbar.tsx
 
 import Link from 'next/link';
-import Image from 'next/image';
 
 const Navbar: React.FC = () => {
   return (
@@ -17,25 +15,25 @@ const Navbar: React.FC = () => {
         {/* hr-ish */}
         <hr className="border-t border-gray-300 border-opacity-20" />
         {/* quasi-nav-links */}
-        <div className="flex justify-center pt-5">
+        <div className="flex justify-center pt-5 pb-3">
           <div className="flex items-center space-x-4">
             <Link href="/">
-              <p className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">
+              <p className="text-gray-300 hover:text-[#F05454] px-3 py-2 text-sm font-medium">
                 Home
               </p>
             </Link>
             <Link href="/about">
-              <p className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">
+              <p className="text-gray-300 hover:text-[#F05454] px-3 py-2 text-sm font-medium">
                 Akina 
               </p>
             </Link>
             <Link href="/about">
-              <p className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">
+              <p className="text-gray-300 hover:text-[#F05454] px-3 py-2 text-sm font-medium">
                 AE86
               </p>
             </Link>
             <Link href="/about">
-              <p className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">
+              <p className="text-gray-300 hover:text-[#F05454] px-3 py-2 text-sm font-medium">
                 Garage
               </p>
             </Link>

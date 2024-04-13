@@ -1,11 +1,17 @@
 "use client"
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
+import CarButton from './misc/CarBtn';
 
 const gifs = [
   'https://i.pinimg.com/originals/da/3f/9e/da3f9e8270a5453f98f0830aaf6cf852.gif',
   'https://i.pinimg.com/originals/83/18/af/8318af2e30c4ae73e45ae011076ae75e.gif',
   'https://i.pinimg.com/originals/4b/e3/63/4be363fdcd308233ba22777c794a4a23.gif',
+  'https://gifdb.com/images/high/initial-d-white-car-fmig87d8t1zyh7fj.gif',
+  'https://gifdb.com/images/high/initial-d-anime-driving-moves-1mmonqsx3ox2nw58.gif',
+  'https://media1.tenor.com/m/maJbrhT-UUUAAAAC/initial-d-fifth-stage.gif',
+  'https://gifdb.com/images/high/initial-d-takumi-fujiwara-driving-fast-gip3hlahmyp0kzul.gif',
+  'https://static.wikia.nocookie.net/initiald/images/1/13/Hideo_Minagawa_forfeits_from_the_battle.gif/revision/latest/scale-to-width-down/520?cb=20210801111954'
 ];
 
 const LandingPage = () => {
@@ -14,7 +20,7 @@ const LandingPage = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentGifIndex((prevIndex) => (prevIndex + 1) % gifs.length);
-    }, 5000); // Change the interval to 5000 milliseconds (5 seconds)
+    }, 5000); 
 
     return () => clearInterval(interval);
   }, []);
@@ -44,9 +50,7 @@ const LandingPage = () => {
         <h1 className="text-4xl md:text-6xl font-bold mb-4">ハチロクのドライバー</h1>
         <p className="text-lg md:text-xl">prod by Dave Rodgers</p>
         <div className="mt-8">
-          <button className="px-6 py-3 bg-slate-900 border border-slate-300 text-white rounded-md shadow-md hover:bg-blue-600 transition duration-300 ease-in-out">
-            Drift
-          </button>
+        <CarButton>Start Racing</CarButton>
         </div>
       </div>
     </div>
