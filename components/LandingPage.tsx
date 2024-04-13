@@ -14,7 +14,7 @@ const LandingPage = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentGifIndex((prevIndex) => (prevIndex + 1) % gifs.length);
-    }, 5000); 
+    }, 5000); // Change the interval to 5000 milliseconds (5 seconds)
 
     return () => clearInterval(interval);
   }, []);
@@ -41,8 +41,8 @@ const LandingPage = () => {
       </div>
 
       <div className="z-10 text-white text-center">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">Aham</h1>
-        <p className="text-lg md:text-xl">Now we got that so let's get going</p>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">ハチロクのドライバー</h1>
+        <p className="text-lg md:text-xl">prod by Dave Rodgers</p>
         <div className="mt-8">
           <button className="px-6 py-3 bg-slate-900 border border-slate-300 text-white rounded-md shadow-md hover:bg-blue-600 transition duration-300 ease-in-out">
             Drift
