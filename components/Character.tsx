@@ -24,11 +24,11 @@ const Character: React.FC<CharacterProps> = ({name,img,title}) => {
           <title>{name}</title>
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         </Head>
-        <div className="content container mx-auto px-4 py-24 flex flex-col items-center justify-center">
+        <div className="content container mx-auto px-4 py-14 flex flex-col items-center justify-center">
           <img
             src={img}
             alt={name}
-            className="rounded-full w-40 h-40 mb-8 shadow-lg shadow-gray-700 aos-init aos-animate fade-up"
+            className="rounded-full w-60 h-60 md:w-80 md:h-80 mb-8 shadow-lg shadow-gray-700 aos-init aos-animate fade-up"
             data-aos="fade-up"
           />
           <h1 className="text-4xl font-bold text-white mb-4 aos-init aos-animate zoom-in" data-aos="zoom-in">
