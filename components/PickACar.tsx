@@ -1,4 +1,3 @@
-// pages/PickACar.tsx
 import React from 'react';
 
 const PickACar: React.FC = () => {

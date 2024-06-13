@@ -22,17 +22,17 @@ const Navbar: React.FC = () => {
                 Home
               </p>
             </Link>
-            <Link href="/about">
+            <Link href="/akina">
               <p className="text-gray-300 hover:text-[#F05454] px-3 py-2 text-sm font-medium">
                 Akina 
               </p>
             </Link>
-            <Link href="/about">
+            <Link href="/ae86">
               <p className="text-gray-300 hover:text-[#F05454] px-3 py-2 text-sm font-medium">
                 AE86
               </p>
             </Link>
-            <Link href="/about">
+            <Link href="/garage">
               <p className="text-gray-300 hover:text-[#F05454] px-3 py-2 text-sm font-medium">
                 Garage
               </p>
