@@ -9,6 +9,7 @@ import Head from "next/head";
 import 'aos/dist/aos.css';
 import driftImg from '../public/drifto.jpg'
 import DCard from "@/components/Card";
+import StageCard from "@/components/StageCard";
 
 export default function Home() {
   useEffect(() => {
@@ -188,17 +189,37 @@ export default function Home() {
 
 
         <main className="p-5">
-          <section id="red-suns" className="mb-10" data-aos="fade-up">
-            <h2 className="text-2xl font-semibold text-accent">Red Suns</h2>
-            <p>Welcome to the world of Initial D, where street racing legends are born.</p>
-          </section>
-          <section id="akina-speed-stars" className="mb-10" data-aos="fade-up">
-            <h2 className="text-2xl font-semibold text-accent">Akina Speed Stars</h2>
-            <p>Welcome to the world of Initial D, where street racing legends are born.</p>
-          </section>
-          <section id="project-d" className="mb-10" data-aos="fade-up">
-            <h2 className="text-2xl font-semibold text-accent">Project D</h2>
-            <p>Welcome to the world of Initial D, where street racing legends are born.</p>
+          <section id="red-suns" className="mb-10" data-aos="fade-left">
+            <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 ">
+              <StageCard
+              name="First Stage"
+              description="Takumi Fujiwara battles opponents on Mount Akina."
+              img="https://i.redd.it/b2wbf9g6k6121.jpg"
+              />
+              <StageCard
+              name="Second Stage"
+              description="Takumi Fujiwara battles opponents on Mount Akina."
+              img="https://m.media-amazon.com/images/M/MV5BYzlmZDQxNmEtOTQyZS00M2VlLTgyNjYtYjg4MGNkNzVkNjdhXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_.jpg"
+              />
+              <StageCard
+              name="Third Stage"
+              description="Takumi Fujiwara battles opponents on Mount Akina."
+              img="https://resizing.flixster.com/iJrNV4tvUn1TAV2PDvdDwbTUHXU=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8579520_v_h9_aa.jpg"
+              />
+              <StageCard
+              name="Fourth Stage"
+              description="Takumi Fujiwara battles opponents on Mount Akina."
+              img="https://shahid.mbc.net/mediaObject/2021/AMREID/aa/Thump_Clean_INITIAL_D_4TH_STAGE/original/Thump_Clean_INITIAL_D_4TH_STAGE.jpg?height=360&width=480&croppingPoint=tc&version=1&type=webp"
+              />
+              <StageCard
+              name="Fifth Stage"
+              description="Takumi Fujiwara battles opponents on Mount Akina."
+              img="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt2VVem8J3gJxR0V5vRIqgt219iKc1V-y35ke4zMbW0XDZX-mVXaMyiwp5PyEzZ0w4DJoxbex5e6QQ6lnuVrQjgclDdGU4qJl5ACBfaMk8Z0zX66CdQr2Jh6KwBzKqJ3T4bTMCgjpOjvyS/s1600/Screenshot+2014-08-14+20.19.41.png"
+              />
+              
+
+
+            </div>
           </section>
         </main>
       </div>
