@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-gradient-to-b from-black via-gray-900 to-gray-800 w-full top-0 shadow-xl">
+    <nav className="bg-gradient-to-b from-black via-gray-900 to-gray-800  border-none w-full top-0 shadow-xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <div className="flex items-center justify-center py-5">
@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* hr-ish */}
-        <hr className="border-t border-gray-500 border-opacity-30" />
+        <hr className="border-t border-gray-800 border-opacity-30" />
 
         {/* quasi-nav-links */}
         <div className="flex justify-center pt-5 pb-3">

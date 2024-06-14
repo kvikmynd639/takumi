@@ -1,18 +1,23 @@
 "use client"
 import Image from "next/image"
-import ae86Front from '/public/ae86-front.webp'; // Example images
-import ae86Side from '/public/ae86-side.webp';
-import ae86Drift from '/public/ae86-back.webp';
+import ae86Front from '/public/ae86-front.png'; // Example images
+import ae86Side from '/public/ae86-side.png';
+import ae86Drift from '/public/drift.jpg'
+import ae86Back from '/public/ae86-back.png';
+import ae86gal from '/public/ae86-back.webp'
+import ae86gal2 from '/public/ae86-front.webp'
+import ae86gal3 from '/public/ae86-side.webp'
+
 import { useEffect } from "react";
 import AOS from 'aos'
 
 export default function Ae86() {
     useEffect(()=> {
-        AOS.init({duration:1400})
+        AOS.init({duration:1600})
     },[])
 
     return(
-        <div className="bg-gray-900 text-white">
+        <div className="bg-[#1D2B53] text-white">
         <section className="w-full h-auto" >
           {/*<h1 className="text-5xl font-bold mb-4 text-[#f8e71c]" style={{ textShadow: '0 0 10px #f8e71c' }}>
             Tribute to the AE86
@@ -44,7 +49,7 @@ export default function Ae86() {
         </section>
   
         {/* History Section */}
-        <section className="bg-gray-800 py-20">
+        <section className="py-20">
           <div className="container mx-auto px-4 text-center" data-aos="fade-right">
             <h2 className="text-4xl font-bold mb-4">History of the AE86</h2>
             <p className="text-lg mb-8 leading-relaxed">
@@ -63,14 +68,14 @@ export default function Ae86() {
             <h2 className="text-4xl font-bold">AE86 Gallery</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Image src={ae86Front} alt="AE86 Front" className="rounded-lg shadow-lg" />
-            <Image src={ae86Side} alt="AE86 Side" className="rounded-lg shadow-lg" />
-            <Image src={ae86Drift} alt="AE86 Drift" className="rounded-lg shadow-lg" />
+            <Image src={ae86gal} alt="AE86 Front" className="rounded-lg shadow-lg" />
+            <Image src={ae86gal2} alt="AE86 Side" className="rounded-lg shadow-lg" />
+            <Image src={ae86gal3} alt="AE86 Drift" className="rounded-lg shadow-lg" />
           </div>
         </section>
   
         {/* Drifting Section */}
-        <section className="bg-gradient-to-r from-black via-gray-800 to-black py-20">
+        <section className="py-20" data-aos="zoom-in">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold mb-4 text-[#00FFFF]" style={{ textShadow: '0 0 10px #00FFFF' }}>
               Takumi's Drifting
