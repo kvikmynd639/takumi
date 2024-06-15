@@ -1,7 +1,9 @@
 "use client"
 import Character from "@/components/Character";
 import AOS from "aos";
-import { useEffect} from "react";
+import {useEffect} from "react";
+import CarScene from '@/components/CarScene';
+import NissanS13Scene from '@/components/NissanS13Scene'
 
 
 export default function Akina() {

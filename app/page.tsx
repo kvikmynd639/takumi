@@ -1,13 +1,7 @@
 "use client"
 import { useEffect } from "react";
-import Image from "next/image";
-import Navbar from "@/components/Nav";
-import LandingPage from "@/components/LandingPage";
-import PickACar from "@/components/PickACar";
 import AOS from 'aos';
-import Head from "next/head";
 import 'aos/dist/aos.css';
-import driftImg from '../public/drifto.jpg'
 import DCard from "@/components/Card";
 import StageCard from "@/components/StageCard";
 
@@ -23,7 +17,7 @@ export default function Home() {
       <div className="min-h-screen bg-cover bg-no-repeat bg-center">
         <header className="parallax">
           <div className="items-center flex justify-center min-h-screen bg-sea1 bg-fixed bg-no-repeat bg-cover bg-center">
-          <h1 className="mb-4 text-6xl font-extrabold leading-none tracking-tight text-gray-100 md:text-5xl lg:text-6xl dark:text-white"
+              <h1 className="mb-4 text-6xl font-extrabold leading-none tracking-tight text-gray-100 md:text-5xl lg:text-6xl dark:text-white"
           data-aos="fade-down">
             No one sleep in <mark className="px-2 text-white bg-red-600 rounded dark:bg-red-500">Tokyo</mark> </h1>
           </div>
@@ -51,7 +45,7 @@ export default function Home() {
         </header>
         
         <div 
-        className="min-h-screen w-full justify-center items-center bg-sea2 bg-cover bg-no-repeat bg-fixed bg-center"
+        className="min-h-screen w-full justify-center flex items-center bg-sea2 bg-cover bg-no-repeat bg-fixed bg-center"
         data-aos="fade-up" data-aos-duration="2000">
            
         </div>
@@ -193,27 +187,27 @@ export default function Home() {
             <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 ">
               <StageCard
               name="First Stage"
-              description="Takumi Fujiwara battles opponents on Mount Akina."
-              img="https://i.redd.it/b2wbf9g6k6121.jpg"
+              description="Unassuming delivery boy Takumi Fujiwara, by night, dominates the downhill racing scene of Mount Akina with his honed drifting skills."
+              img="https://m.media-amazon.com/images/S/pv-target-images/d57db0c3d43290736f0df283c83d500e54de9f6c6e12b92d93eba9b2a704b5be.jpg"
               />
               <StageCard
               name="Second Stage"
-              description="Takumi Fujiwara battles opponents on Mount Akina."
-              img="https://m.media-amazon.com/images/M/MV5BYzlmZDQxNmEtOTQyZS00M2VlLTgyNjYtYjg4MGNkNzVkNjdhXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_.jpg"
+              description="Takumi and his friends face new racing challenges in the Gunma area, pushing his tofu delivery skills and Eight-Six to the limit"
+              img="https://w0.peakpx.com/wallpaper/67/200/HD-wallpaper-initial-d-anime-thumbnail.jpg"
               />
               <StageCard
               name="Third Stage"
-              description="Takumi Fujiwara battles opponents on Mount Akina."
+              description="Takumi defending his street racing reputation against even tougher opponents who demand the fastest driver and car."
               img="https://resizing.flixster.com/iJrNV4tvUn1TAV2PDvdDwbTUHXU=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8579520_v_h9_aa.jpg"
               />
               <StageCard
               name="Fourth Stage"
-              description="Takumi Fujiwara battles opponents on Mount Akina."
-              img="https://shahid.mbc.net/mediaObject/2021/AMREID/aa/Thump_Clean_INITIAL_D_4TH_STAGE/original/Thump_Clean_INITIAL_D_4TH_STAGE.jpg?height=360&width=480&croppingPoint=tc&version=1&type=webp"
+              description=" Takumi joins a competitive street racing team, Project D, led by his strategist brother Ryosuke, to conquer mountain passes across Japan"
+              img="https://w0.peakpx.com/wallpaper/901/54/HD-wallpaper-initial-d-fourth-stage-cars-initial-d-drift.jpg"
               />
               <StageCard
               name="Fifth Stage"
-              description="Takumi Fujiwara battles opponents on Mount Akina."
+              description="Fifth Stage throws down the gauntlet for Project D's toughest challenge yet, with grueling uphill races that test both Takumi's driving and the limits of his trusty Toyota AE86."
               img="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt2VVem8J3gJxR0V5vRIqgt219iKc1V-y35ke4zMbW0XDZX-mVXaMyiwp5PyEzZ0w4DJoxbex5e6QQ6lnuVrQjgclDdGU4qJl5ACBfaMk8Z0zX66CdQr2Jh6KwBzKqJ3T4bTMCgjpOjvyS/s1600/Screenshot+2014-08-14+20.19.41.png"
               />
               

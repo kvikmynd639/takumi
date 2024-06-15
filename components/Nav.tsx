@@ -37,6 +37,10 @@ const Navbar: React.FC = () => {
            
                 Garage
             </Link>
+            <Link href="/car-models" className="text-white hover:text-red-500 px-3 py-2 text-sm font-medium tracking-widest">
+               Car Models
+            
+            </Link>
           </div>
         </div>
       </div>
