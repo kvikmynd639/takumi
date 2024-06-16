@@ -17,7 +17,7 @@ export default function Home() {
       <div className="min-h-screen bg-cover bg-no-repeat bg-center">
         <header className="parallax">
           <div className="items-center flex justify-center min-h-screen bg-sea1 bg-fixed bg-no-repeat bg-cover bg-center">
-              <h1 className="mb-4 text-6xl font-extrabold leading-none tracking-tight text-gray-100 md:text-5xl lg:text-6xl dark:text-white"
+              <h1 className="mb-4  md:text-6xl font-extrabold leading-none tracking-tight text-gray-100 text-3xl lg:text-6xl dark:text-white"
           data-aos="fade-down">
             No one sleep in <mark className="px-2 text-white bg-red-600 rounded dark:bg-red-500">Tokyo</mark> </h1>
           </div>
@@ -183,7 +183,7 @@ export default function Home() {
 
 
         <main className="p-5">
-          <section id="red-suns" className="mb-10" data-aos="fade-left">
+          <section id="red-suns" className="mb-10" data-aos="zoom-in">
             <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 ">
               <StageCard
               name="First Stage"

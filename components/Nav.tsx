@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
 
         {/* quasi-nav-links */}
         <div className="flex justify-center pt-5 pb-3">
-          <div className="flex items-center space-x-6">
+          <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-6">
             <Link href="/" className="text-white hover:text-red-500 px-3 py-2 text-sm font-medium tracking-widest">
              
                 Home

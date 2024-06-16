@@ -28,7 +28,7 @@ export default function CarModels() {
 
         <div className="w-full h-screen py-6 flex flex-col md:flex-row px-4">
             <div className="w-full md:w-1/2 flex items-center justify-center text-justify font-bold"
-            data-aos="fade-right"
+            data-aos="fade-up"
             > {/* Adjusted classes here */}
                <p>The Toyota Trueno AE86, especially in its iconic Panda color scheme, holds a legendary 
                 status among automotive enthusiasts worldwide. Produced in the mid-1980s, the AE86, part of Toyota's Corolla Levin lineup, gained fame primarily due to its exceptional handling characteristics 
@@ -46,7 +46,7 @@ export default function CarModels() {
                         <MazdaScene/>
                 </div>
             <div className="w-full md:w-1/2 flex items-center justify-center text-justify font-bold"
-            data-aos="fade-right"
+            data-aos="fade-left"
             > {/* Adjusted classes here */}
                <p>The Toyota Trueno AE86, especially in its iconic Panda color scheme, holds a legendary 
                 status among automotive enthusiasts worldwide. Produced in the mid-1980s, the AE86, part of Toyota's Corolla Levin lineup, gained fame primarily due to its exceptional handling characteristics 
